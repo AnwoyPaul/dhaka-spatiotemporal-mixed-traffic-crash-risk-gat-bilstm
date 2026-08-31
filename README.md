@@ -6,7 +6,7 @@ A complete pipeline that turns ordinary smartphone traffic video into frame-leve
 
 > Built and evaluated on five smartphone videos recorded from pedestrian overbridges around Dhaka, Bangladesh. Risk labels are derived automatically from surrogate safety measures (time-to-collision, DCPA, closing speed), and a custom Edge-Aware Graph Attention Network + BiLSTM learns to forecast risk up to 5 seconds ahead of a potential near-miss.
 
-📄 **[Read the full paper (PDF)](./An_Empirical_Study_on_Dhaka_Traffic_Video_Paper__1_.pdf)** &nbsp;·&nbsp; 📓 **[Open the notebook](./thesis-spatiotemporal-crash-risk-prediction.ipynb)**
+📄 **[Read the full paper (PDF)](./An_Empirical_Study_on_Dhaka_Traffic_Video_Conference%20Paper.pdf)** &nbsp;·&nbsp; 📓 **[Open the notebook](./thesis-spatiotemporal-crash-risk-prediction.ipynb)**
 
 ---
 
@@ -156,7 +156,7 @@ This is the paper's central diagnostic finding: the graph-attention model was **
 | File | Description |
 |---|---|
 | [`thesis-spatiotemporal-crash-risk-prediction.ipynb`](./thesis-spatiotemporal-crash-risk-prediction.ipynb) | End-to-end notebook: YOLOv8 detection → ByteTrack tracking → trajectory/SSM feature engineering → automatic risk labeling → graph construction → baseline ML models → BiLSTM ablation → Edge-Aware GAT+BiLSTM → evaluation → explainability (XAI) |
-| [`An_Empirical_Study_on_Dhaka_Traffic_Video_Paper__1_.pdf`](./An_Empirical_Study_on_Dhaka_Traffic_Video_Paper__1_.pdf) | Full write-up: *Explainable Edge-Aware Graph Attention and BiLSTM Framework for Spatiotemporal Crash Risk Forecasting in Mixed Traffic* |
+| [`An_Empirical_Study_on_Dhaka_Traffic_Video_Conference Paper.pdf`](./An_Empirical_Study_on_Dhaka_Traffic_Video_Conference%20Paper.pdf) | Full write-up: *Explainable Edge-Aware Graph Attention and BiLSTM Framework for Spatiotemporal Crash Risk Forecasting in Mixed Traffic* |
 | [`README.md`](./README.md) | This file |
 
 > The notebook was developed and run on Kaggle, so file paths reference `/kaggle/input/...` and `/kaggle/working/...`. To run locally, point these paths at your own video files and output directory.
